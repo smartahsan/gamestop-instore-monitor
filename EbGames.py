@@ -1,19 +1,18 @@
-from math import prod
 import time
-import pause, datetime
-from datetime import timedelta, datetime
-from discord_webhook import DiscordWebhook, DiscordEmbed
-from time import sleep
-import threading
-from threading import Thread, current_thread, currentThread
-import colorama
-from colorama import Fore, Back, Style
-colorama.init()
+import datetime
+from datetime import datetime
+from threading import Thread
 import requests
 import json
 import sys
 import time
 import csv
+
+from discord_webhook import DiscordWebhook, DiscordEmbed
+
+import colorama
+from colorama import Fore, Back, Style
+colorama.init()
 
 # import config file
 with open("config.csv", "r") as fd:
